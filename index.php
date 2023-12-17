@@ -60,7 +60,7 @@
                         </td>
                         <td>
                             <a href="/edit.php?id=<?php echo $item["id"]?>" class="btn btn-info">Edit</a>
-                            <a href="#" class="btn btn-danger" onclick="confirmDeleting(<?php echo $item["id"];?>)">Delete</a>
+                            <a href="#" class="btn btn-danger" onclick="confirmDeleting(<?php echo $item['id'];?>)">Delete</a>
                         </td>
                     </tr>
 
