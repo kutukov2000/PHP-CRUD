@@ -26,7 +26,7 @@
         $result = $stmt->fetchAll();
         ?>
 
-        <?php echo "<h1 class='text-center'>Categories</h1>" ?>
+        <h1 class='text-center'>Categories</h1>
 
         <a href="/create.php" class="btn btn-primary mb-3">Add new</a>
 
