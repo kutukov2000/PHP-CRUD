@@ -3,7 +3,6 @@
 $id = $_GET["id"];
 
 $path = $_SERVER["DOCUMENT_ROOT"];
-include($path . "/_header.php");
 include($path . "/config/connection_database.php");
 
 global $pdo;
@@ -53,6 +52,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
 
     <div class="container">
+
+        <?php include($_SERVER["DOCUMENT_ROOT"] . "/_header.php"); ?>
 
         <h1 class='text-center'>Edit category</h1>
 
