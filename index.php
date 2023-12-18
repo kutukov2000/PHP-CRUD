@@ -71,15 +71,7 @@
 
     </div>
 
-    <script>
-        function confirmDeleting(id){
-            console.log(id);
-            if(confirm("Really delete?")){
-                window.location.href=`/delete.php?id=${id}`
-            }
-        }
-    </script>
-
+    <script src="/js/confirmDeleting.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 
